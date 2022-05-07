@@ -1,13 +1,139 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Skapar css variabler för färgerna från style-guide.md filen */
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --pale-blue-dimmed: hsl(225, 100%, 94%, 0.4);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--dark-blue);
+}
+
+p {
+    font-weight: 500;
+    color: var(--desaturated-blue);
+}
+
+.background-wrapper {
+    min-height: 100vh;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: var(--pale-blue);
+    display: grid;
+    padding: 20px;
+    place-items: center;
+}
+
+.card {
+    border-radius: 10px;
+    width: min(100%, 450px);
+    background-color: var(--very-pale-blue);
+    overflow: hidden;
+}
+
+.card-content {
+    padding: 15px 40px;
+}
+
+.card-image-banner {
+    height: 220px;
+}
+
+.card-image-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 900;
+    padding: 20px 0px;
+}
+
+.card-description {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 30ch;
+}
+
+.card-plan {
+    border-radius: 10px;
+    margin: 20px 0px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--pale-blue-dimmed);
+}
+
+.card-plan-icon {
+    flex-shrink: 0;
+}
+
+.card-plan-text {
+    flex-grow: 1;
+}
+
+.card-plan-text h3 {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.card-plan-link {
+    font-weight: 700;
+    text-decoration: underline;
+    color: var(--bright-blue);
+}
+
+.card-plan-link:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button.button,
+button.button-purple {
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    color: var(--desaturated-blue);
+    font-weight: 700;
+    transition: opacity 250ms;
+}
+
+button.button:hover,
+button.button-purple:hover {
+    opacity: 0.9;
+}
+
+button.button-purple {
+    color: var(--pale-blue);
+    background-color: var(--bright-blue);
+}
+
+/* Byter till en mindre bild för telefonen */
+@media screen and (max-width: 375px) {
+    .background-wrapper {
+        background-image: url('./images/pattern-background-mobile.svg');
+    }
 }

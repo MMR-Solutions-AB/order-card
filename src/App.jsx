@@ -1,7 +1,12 @@
+import BackgroundWrapper from './components/BackgroundWrapper'
+import Card from './components/Card'
+
 function App() {
     return (
         <div className='App'>
-            <h1>Hej 2 hej</h1>
+            <BackgroundWrapper>
+                <Card />
+            </BackgroundWrapper>
         </div>
     )
 }
