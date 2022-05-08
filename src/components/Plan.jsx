@@ -1,10 +1,11 @@
 import React from 'react'
+import Icon from '../images/icon-music.svg'
 
 export default function Plan() {
     return (
         <div className='card-plan'>
             <div className='card-plan-icon'>
-                <img src='/src/images/icon-music.svg' alt='' />
+                <img src={Icon} alt='' />
             </div>
             <div className='card-plan-text'>
                 <h3>Annual Plan</h3>
