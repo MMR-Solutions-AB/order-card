@@ -12,6 +12,8 @@ För att komma igång
 2. Reserande i gruppen ska klona det forkade repot
 3. Nu är det bara att börja samarbeta
 
+[Här](https://jovial-bonbon-fa9e2b.netlify.app/) är en länk till en demo av sidan
+
 ## Tasks
 
 Vi har delat upp detta projekt i mindre delar, **tasks**, som ni ska dela upp bland er själva i gruppen.
