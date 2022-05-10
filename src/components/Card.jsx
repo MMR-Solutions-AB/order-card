@@ -12,6 +12,7 @@ export default function Card() {
                     You can now listen to millions of songs, audiobooks, and
                     podcasts on any device anywhere you like!
                 </p>
+
                 <Plan />
                 <button className='button-purple'>Proceed to Payment</button>
                 <button className='button'>Cancel Order</button>
