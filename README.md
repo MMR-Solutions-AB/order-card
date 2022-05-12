@@ -9,8 +9,9 @@ I denna uppgift ligger fokuset på att träna på git och github tillsammans i g
 Resurser ni kommer behöva:
 
 1. Github: [https://github.com/MMR-Solutions-AB/order-card](https://github.com/MMR-Solutions-AB/order-card)
-2. Demo: [https://jovial-bonbon-fa9e2b.netlify.app/](https://jovial-bonbon-fa9e2b.netlify.app/)
-3. En bra video om git och github: [https://youtu.be/Uszj_k0DGsg](https://youtu.be/Uszj_k0DGsg)
+2. Frontend-mentor uppgiften: [https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
+3. Demo: [https://jovial-bonbon-fa9e2b.netlify.app/](https://jovial-bonbon-fa9e2b.netlify.app/)
+4. En bra video om git och github: [https://youtu.be/Uszj_k0DGsg](https://youtu.be/Uszj_k0DGsg)
 
 **För att komma igång:**
 
