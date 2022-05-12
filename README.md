@@ -14,11 +14,11 @@ Resurser ni kommer behöva:
 
 **För att komma igång:**
 
-1. En i eran grupp ska starta ett nytt projekt med antigen create-react-app eller vite. Det spelar ingen roll vad ni använder, båda två gör exakt samma sak men vite är extremt mycket snabbare.
-2. Samma person ska nu ladda ner frontend-mentor projektet, här, och drag-n-droppa bilderna i det nyligen skapade react projektet.
-3. Samma person ska nu pusha allting till ett nytt repo på sin egna github.
-4. Resterande i gruppen kan nu klona det repot.
-5. Delegera uppgifterna nedan mellan er.
+1. En i eran grupp ska starta ett nytt projekt med antigen **create-react-app** eller **vite** (men vi rekommenderar att ni använder vite). Det spelar ingen roll vad ni använder, båda två gör exakt samma sak men **vite** är extremt mycket snabbare. Ni hittar mer info om **vite** i nästa sektion. Om ni undrar varför ni ska använda react istället för plain HTML är det för att det kommer göra det mycket enklare att sammarbeta då ni kommer kunna dela upp det ni jobbar med i olika komponenter som lever i sina egna filer vilken underlättar det väldigt mycket för er.  
+2. Samma person ska nu ladda ner frontend-mentor projektet, [här](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj), och drag-n-droppa **design** och **images** mapparna samt **style-guide.md** filen i det nyligen skapade react projektet. **Design** mappen innehåller bilder om hur slut hemsidan ska se ut medans **images** mappen innehåller bilder som ska användas i själva hemsidan som. backgrunds-bilder och ikoner. Ni kommer behöva få veta färgerna och annat om styling från **style-guide.md**.
+3. Samma person ska nu pusha allting till ett nytt repo på sin egna github så att det blir tillgänglig för alla andra i gruppen.
+4. Resterande i gruppen kan nu klona det repot till sena lokal dator.
+5. Delegera **tasken** nedan i **Tasks** sektionen mellan er. För varje task du gör ska ni göra en ny branch som sedan mergas med main branchen när du är klar, mer om detta i sektion 4. 
 6. Nu är det bara att börja samarbeta
 
 ## Tasks
